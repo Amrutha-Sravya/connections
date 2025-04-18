@@ -2,17 +2,17 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
 const words = [
-  "Apple", "Banana", "Cherry", "Grape",
-  "Mercury", "Venus", "Earth", "Mars",
-  "Square", "Triangle", "Circle", "Rectangle",
-  "Violin", "Guitar", "Piano", "Drums"
+  "Son of Satyamurthy", "Chirutha", "Pokiri", "Check",
+  "Businessman", "NOTA", "Bramhotsavam", "Bharath Ane Nenu",
+  "Ee Nagaraniki em ayyindi", "Baahubali 2", "Agent", "Bangara Bullodu",
+  "Amma Nanna oo Tamil Ammayi", "MLA", "Ugram", "Aadavari Matalaku Arthale Verule"
 ];
 
 const correctGroups = [
-  ["Apple", "Banana", "Cherry", "Grape"],
-  ["Mercury", "Venus", "Earth", "Mars"],
-  ["Square", "Triangle", "Circle", "Rectangle"],
-  ["Violin", "Guitar", "Piano", "Drums"]
+  ["Aadavari Maatalaku Arthale Verule", "Baahubali 2", "Bramhotsavam", "Son of Satyamurthy"],
+  ["Businessman", "Chirutha", "Pokiri", "Amma Nanna oo Tamil Ammayi"],
+  ["NOTA", "MLA", "Bharath ane nenu", "Ee nagaraniki em ayyindi"],
+  ["Agent", "Ugram", "Check", "Bangara Bullodu"]
 ];
 
 export default function ConnectionsGame() {
